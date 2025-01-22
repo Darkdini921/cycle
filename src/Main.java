@@ -82,6 +82,7 @@ public class Main {
         }
 
         // Задача 10
+
         System.out.println("");
         System.out.println("Задача 10");
 
