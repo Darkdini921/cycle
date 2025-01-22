@@ -4,7 +4,7 @@ public class Main {
         // Задача 1
 
         System.out.println("Задача 1");
-        for (int a = 1; a < 11; a++) {
+        for (int a = 1; a <= 10; a++) {
             System.out.println(a);
         }
 
@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("");   // Добавил эту строку что бы в консоли задачи не сливались
         System.out.println("Задача 2");
-        for (int a = 10; a > 0; a--){
+        for (int a = 10; a >= 1; a--){
             System.out.println(a);
         }
 
@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println("");
         System.out.println("Задача 4");
-        for (int a = 10; a > - 11; a--){
+        for (int a = 10; a >= - 10; a--){
             System.out.println(a);
         }
 
@@ -36,7 +36,7 @@ public class Main {
 
         System.out.println("");
         System.out.println("Задача 5");
-        for (int year = 1904; year < 2097; year = year + 4){
+        for (int year = 1904; year <= 2096; year += 4){
             System.out.println(year + " год является високосным.");
         }
 
@@ -44,7 +44,7 @@ public class Main {
 
         System.out.println("");
         System.out.println("Задача 6");
-        for (int a = 7; a < 99; a = a + 7){
+        for (int a = 7; a <= 98; a += 7){
             System.out.println(a);
         }
 
@@ -52,7 +52,7 @@ public class Main {
 
         System.out.println("");
         System.out.println("Задача 7");
-        for (int a = 1; a <= 512; a = a * 2){
+        for (int a = 1; a <= 512; a *= 2){
             System.out.println(a);
         }
 
@@ -63,7 +63,7 @@ public class Main {
 
         int income = 29000;
         int total = 0;
-        for (int a = 1; a < 13; a++){
+        for (int a = 1; a <= 12; a++){
             total = total + income;
             System.out.println("Месяц - " + a + ", сумма накоплений равна " + total + " рублей.");
         }
@@ -74,7 +74,7 @@ public class Main {
 
         int income2 = 29000;
         int total2 = 0;
-        for (int a = 1; a < 13; a++) {
+        for (int a = 1; a <= 12; a++) {
             total2 = total2 + income2;
             total2 = (int) (total2 + (total2 * 0.12));
             System.out.println("Месяц - " + a + ", сумма накоплений равна " + total2 + " рублей.");
@@ -88,7 +88,7 @@ public class Main {
         for (int i = 1; i < 11; i++){
             int x = 2;
             int q = i * x;
-            System.out.println(q);
+            System.out.println(x + " * " + i + " = " + q);
         }
     }
 }
