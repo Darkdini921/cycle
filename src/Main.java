@@ -69,6 +69,7 @@ public class Main {
         }
 
         // Задача 9
+
         System.out.println("");
         System.out.println("Задача 9");
 
